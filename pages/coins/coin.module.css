@@ -1,8 +1,9 @@
 .coin_page {
     display: flex;
     justify-content: center;
-    height: 75vh;
+    height: 100vh;
     align-items: center;
+    
 }
 
 .coin_container {
@@ -26,6 +27,7 @@
 
 .coin_ticker {
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .coin_current {

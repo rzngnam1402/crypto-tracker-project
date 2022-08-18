@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout';
+import Layout from '../../components/Layout/layout';
 import styles from './coin.module.css';
 
 const Coin = ({ coin }) => {
@@ -14,7 +14,7 @@ const Coin = ({ coin }) => {
                     <h1 className={styles.coin_name}>{coin.name}</h1>
                     <p className={styles.coin_ticker}>{coin.symbol}</p>
                     <p className={styles.coin_current}>
-                        {coin.market_data.current_price.usd}
+                        ${coin.market_data.current_price.usd}
                     </p>
                 </div>
             </div>
