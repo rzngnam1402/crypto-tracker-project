@@ -5,8 +5,10 @@ import SearchBar from "../components/SearchBar/search-bar"
 const HomePage = (props) => {
     return (
         <Layout>
-            <SearchBar />
-            <CoinsList filteredCoins={props.filteredCoins} />
+            <div className='coin_app'>
+                <SearchBar />
+                <CoinsList filteredCoins={props.filteredCoins} />
+            </div>
         </Layout>
     )
 }
