@@ -12,7 +12,7 @@
 ## About <a name="about"></a>
 This is a front-end web design to track all the cryptocurrency using Coingecko Api
     
-Project's timeline : 05/07/2022 - Present
+Project's timeline : 17/08/2022 - Present
   
 Website's techonology features:  
 * ReactJs Components
